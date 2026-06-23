@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Level Up Sport Center – Soporte</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0A192F;
+      color: #fff;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #112240;
+      padding: 24px 20px;
+      text-align: center;
+      border-bottom: 1px solid #1E3A5F;
+    }
+
+    header h1 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #64FFDA;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      color: #8892B0;
+      font-size: 14px;
+      margin-top: 6px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: #172A45;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 20px;
+      border: 1px solid #1E3A5F;
+    }
+
+    .card h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #64FFDA;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .card p {
+      color: #8892B0;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 0;
+      border-bottom: 1px solid #1E3A5F;
+    }
+
+    .contact-item:last-child { border-bottom: none; }
+
+    .contact-icon {
+      width: 44px;
+      height: 44px;
+      background: rgba(100, 255, 218, 0.1);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+
+    .contact-label {
+      font-size: 12px;
+      color: #4A5568;
+      margin-bottom: 2px;
+    }
+
+    .contact-value {
+      font-size: 15px;
+      color: #fff;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .contact-value:hover { color: #64FFDA; }
+
+    .feature-list {
+      list-style: none;
+      margin-top: 8px;
+    }
+
+    .feature-list li {
+      color: #8892B0;
+      font-size: 14px;
+      padding: 6px 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .feature-list li::before {
+      content: '✦';
+      color: #64FFDA;
+      font-size: 10px;
+      margin-top: 4px;
+      flex-shrink: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: #4A5568;
+      font-size: 13px;
+      border-top: 1px solid #1E3A5F;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(100, 255, 218, 0.1);
+      color: #64FFDA;
+      border-radius: 8px;
+      padding: 4px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Level Up Sport Center</h1>
+    <p>Soporte oficial de la aplicación móvil</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Contacto -->
+    <div class="card">
+      <h2>📞 Contacto y Soporte</h2>
+      <p style="margin-bottom: 16px;">Estamos disponibles para ayudarte con cualquier duda o problema con la app.</p>
+
+      <div class="contact-item">
+        <div class="contact-icon">✉️</div>
+        <div>
+          <div class="contact-label">Correo electrónico</div>
+          <a class="contact-value" href="mailto:levelupsportctg@gmail.com">levelupsportctg@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <div class="contact-icon">💬</div>
+        <div>
+          <div class="contact-label">WhatsApp</div>
+          <a class="contact-value" href="https://wa.me/573053951503" target="_blank">+57 305 395 1503</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Sobre la app -->
+    <div class="card">
+      <h2>📱 Sobre la App</h2>
+      <div class="badge">Versión 1.0.0</div>
+      <p>Level Up es la aplicación oficial del gimnasio Level Up Sport Center. Diseñada para alumnos y familias que quieren gestionar todo desde su celular.</p>
+      <ul class="feature-list" style="margin-top: 16px;">
+        <li>Inscripción y seguimiento de clases</li>
+        <li>Historial de progreso registrado por tu profesor</li>
+        <li>Tablón de anuncios del gimnasio</li>
+        <li>Tracking GPS de la ruta de transporte</li>
+        <li>Tienda de artículos deportivos</li>
+        <li>Acceso QR al gimnasio</li>
+      </ul>
+    </div>
+
+    <!-- Privacidad -->
+    <div class="card">
+      <h2>🔒 Privacidad de Datos</h2>
+      <p>Level Up recopila únicamente la información necesaria para el funcionamiento de la app: nombre, correo electrónico, ubicación (para el tracking de rutas) y fotos de perfil. Tus datos no son vendidos ni compartidos con terceros. Para solicitar la eliminación de tu cuenta y datos, escríbenos a <a href="mailto:levelupsportctg@gmail.com" style="color:#64FFDA;">levelupsportctg@gmail.com</a>.</p>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 Level Up Sport Center. Todos los derechos reservados.<br/>
+    Cartagena, Colombia
+  </footer>
+
+</body>
+</html>
